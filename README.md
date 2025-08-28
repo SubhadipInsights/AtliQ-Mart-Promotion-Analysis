@@ -152,7 +152,9 @@ Question:Create a report featuring the top 5 products ranked by Incremental Reve
 
  ---
  ## 📷 Dashboard Preview
-![Dashboard Preview](https://github.com/SubhadipInsights/AtliQ-Grands-Market-Share-Recovery-Dashboard/blob/main/dashboard_preview.png)
+![Home Preview](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/%7B3271DAE2-97E8-4F15-A19A-112AFEE10F2F%7D.png) <br>
+![Performance Preview](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/%7B7F656EB5-6FF8-4471-B05A-6F1F1932263E%7D.png) <br>
+![Financial Preview](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/%7B852A47CD-09B2-4884-B3DF-82692E212566%7D.png)
 
 
 
