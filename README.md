@@ -12,7 +12,10 @@
 9. [Dashboard Preview](#-Dashboard-Preview)
 10. [Live Dashboard](#-Live-Dashboard)
 11. [Insights](#-Insights)
-12. [Project Slides](#-Project-SLides)
+12. [Recommendations](#-Recommended-Action)
+13. [Presentation](#-Project-Presentation)
+14. [Guide](#-How-to-Use)
+15. [Thank You](#-THANK-YOU)
 
     
 
@@ -104,22 +107,22 @@ This analysis will enable **data-driven decisions** for future campaigns, optimi
 
 **`dim_products`**
 -`product_code` – Unique product code.
--`product_name` – Full name of the product including brand and specifications.
--`category` – Product category (e.g., Grocery & Staples, Home Care, Personal Care, Home Appliances).
+-`product_name` – Full name of the product including brand and specifications.<br>
+-`category` – Product category (e.g., Grocery & Staples, Home Care, Personal Care, Home Appliances).<br>
 
 **`dim_stores`**
--`store_id` – Unique store identifier.
--`city` – City where the store is located.
+-`store_id` – Unique store identifier.<br>
+-`city` – City where the store is located.<br>
 
 **`fact_events`**
--`event_id` – Unique identifier for each sales event.
--`store_id` – Store where the event took place (linked to dim_stores).
--`campaign_id` – Campaign under which the event was recorded (linked to dim_campaigns).
--`product_code` – Code of the product sold (linked to dim_products).
--`base_price` – Standard price of the product before discounts.
--`promo_type` – Type of promotion (Percentage Discount, BOGOF, Cashback).
--`quantity_sold_before_promo` – Units sold before campaign (baseline).
--`quantity_sold_after_promo` – Units sold after the campaign promotion.
+-`event_id` – Unique identifier for each sales event.<br>
+-`store_id` – Store where the event took place (linked to dim_stores).<br>
+-`campaign_id` – Campaign under which the event was recorded (linked to dim_campaigns).<br>
+-`product_code` – Code of the product sold (linked to dim_products).<br>
+-`base_price` – Standard price of the product before discounts.<br>
+-`promo_type` – Type of promotion (Percentage Discount, BOGOF, Cashback).<br>
+-`quantity_sold_before_promo` – Units sold before campaign (baseline).<br>
+-`quantity_sold_after_promo` – Units sold after the campaign promotion.<br>
 
 ---
 
@@ -182,13 +185,54 @@ Question:Create a report featuring the top 5 products ranked by Incremental Reve
 
 ---
 
-## Insights
+## 🔎 Insights
+
+1. **Store Performance**
+
+-Top-performing cities:
+ Bengaluru, Chennai, and Hyderabad contributed the highest IR & ISU.
+ These cities alone added over 50% of incremental sales uplift.<br>
+-Lower-performing stores:
+ Stores like STMLR-0, STVSK-3, STMYS-0 (Mangalore, Visakhapatnam, Mysuru) had lower IR%.
+ Specific stores like STVSK-3, STCHE-1, STHYD-1 contributed ISU% below the campaign average (70%).<br>
+-Regional Trend:
+ Metro cities outperformed smaller markets, showing urban customers are more promotion-sensitive, especially towards Cashback and BOGOF offers.
+
+2. **Promotion Type Effectiveness**
+
+-Most effective promotions:
+ 500 Cashback → IR = 91M, IR% = 136.1%
+ BOGOF → ISU = 157K, ISU% = 270% <br>
+-Underperforming discounts:
+ 50% OFF → Negative IR (−0.73M), ISU% = 32.6%
+ 25% OFF → IR dropped (−3.17M), ISU% = −34.6%
 
 
+3. **Product & Category Performance**
 
-## 📂 Project SLides
+-Best-performing:
+ Combo1 bundles → +91M IR, IR% = 136%
+ Home Appliances → ISU% = 264.4%, making it the backbone of campaign success.<br>
+-Moderate growth:
+ Grocery & Staples and Home Appliances delivered 81%+ IR%, showing strong promotion response.<br>
+-Weak performance:
+ Personal Care had limited uplift (~24.5% ISU%) and negative IR% (−34.2%), indicating weaker promotion sensitivity.
 
-[Project Presentation](https://app.powerbi.com/groups/me/reports/e4245326-2483-4492-81ec-8e551144677f/2b7b7978d5dd3e560ae4?experience=power-bi)
+---
+
+## 🎯 Recommended Action
+
+•	Scale up Cashback & BOGOF promotions across all metro stores, as they consistently delivered the strongest uplift in both revenue and units sold.<br>
+•	Reduce or phase out deep discount campaigns (25% & 50% OFF) since they eroded margins and failed to generate meaningful sales uplift.<br>
+•	Replicate the success of Combo1 bundles & Home Appliances promotions by expanding bundled deals and high-ticket product promotions in future campaigns.<br>
+•	Prioritize metro markets (Bengaluru, Chennai, Hyderabad) for aggressive festive campaigns, while redesigning localized strategies for underperforming tier-2 cities.<br>
+•	Reposition Personal Care promotions by exploring bundled offers or cross-category promotions to improve sales in this weak-performing segment.<br>
+
+---
+
+## 📂 Project Presentation
+
+[PPT]()
 
 ---
 
@@ -198,6 +242,7 @@ Question:Create a report featuring the top 5 products ranked by Incremental Reve
 2. Open in **Power BI Desktop**.
 3. Explore insights via slicers and filters.
 4. Data model and measures can be found in the Power BI fields pane.
+5. copy the SQL queries
 
 ---
 
