@@ -166,7 +166,7 @@ Question:Produce a report that calculates the Incremental Sold Unit % (ISU%) for
 ### 5️⃣ Top 5 Products by Incremental Revenue Percentage (IR%) 
 Question:Create a report featuring the top 5 products ranked by Incremental Revenue % (IR%) for all campaigns <br>
  Query: [View SQL Query](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/Top_5_product_IR%25.sql) <br>
- Result: [📂 View Result (CSV)](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/category%20wise%20ISU%25.csv)
+ Result: [📂 View Result (CSV)](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/Top_5_product_IR%25.csv)
 
  ---
  
