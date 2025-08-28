@@ -1,6 +1,7 @@
 # 📊 AtliQ Mart Promotion Analysis  
 
-## 🔎 Project Overview  
+## 🔎 Project Overview 
+
 This project focuses on analyzing the effectiveness of festive promotions executed by **AtliQ Mart** during **Diwali 2023** and **Sankranti 2024**.  
 
 The analysis leveraged sales data to evaluate the performance of various promotional strategies—including **percentage discounts, cashback offers, and Buy-One-Get-One (BOGOF)** schemes—and measured their impact on:  
@@ -14,7 +15,7 @@ An **interactive Power BI dashboard** was developed to present insights at both 
 
 ---
 
-## 🏬 AtliQ Mart - Company Overview  
+## <img width="70" height="50" alt="atliq-a-logo-04" src="https://github.com/user-attachments/assets/989aab88-8673-4b6e-9f1d-19c9e54a1bf7" /> AtliQ Mart - Company Overview  
 AtliQ Mart is a **leading retail giant** with a network of **50+ supermarkets across South India**.  
 
 The company has built a strong presence in festive retailing by launching large-scale promotional campaigns during **major festivals such as Diwali and Sankranti**. These promotions are designed to:  
@@ -31,7 +32,8 @@ This approach empowers decision-makers with **actionable insights** to maintain 
 
 ---
 
-## 📝 Problem Statement  
+## 📝 Problem Statement 
+
 AtliQ Mart launched multiple **festive promotional campaigns** during **Diwali 2023 and Sankranti 2024** across all stores.  
 
 Promotions included:  
@@ -53,7 +55,8 @@ This analysis will enable **data-driven decisions** for future campaigns, optimi
 
 ---
 
-## 🎯 Project Goals  
+## 🎯 Project Goals 
+
 - Analyze AtliQ Mart’s festive promotional campaigns (**Diwali 2023 & Sankranti 2024**)  
 - Evaluate effectiveness of different promotion types (**discounts, BOGOF, cashback**)  
 - Assess store performance in terms of **IR & ISU**  
@@ -66,29 +69,39 @@ This analysis will enable **data-driven decisions** for future campaigns, optimi
 ## 📂 Data Sources  
 
 1. **dim_campaigns**  
-   - `campaign_id` → Unique identifier for campaign  
-   - `campaign_name` → Name of campaign (Diwali, Sankranti)  
-   - `start_date` → Campaign start date (DD-MM-YYYY)  
-   - `end_date` → Campaign end date (DD-MM-YYYY)  
-
-2. **dim_products**  
-   - `product_code` → Unique product code  
-   - `product_name` → Full name of product (brand, size, etc.)  
-   - `category` → Product category (e.g., Grocery, Home Care, Appliances)  
-
+2. **dim_products** 
 3. **dim_stores**  
-   - `store_id` → Unique store code  
-   - `city` → Store city location  
+4. **fact_events**
+5. [View the Codebasics Resume Project Challenge](https://codebasics.io/challenges/codebasics-resume-project-challenge/12)
 
-4. **fact_events**  
-   - `event_id` → Unique sales event ID  
-   - `store_id` → Store where event occurred  
-   - `campaign_id` → Campaign linked to sale  
-   - `product_code` → Product involved in event  
-   - `base_price` → Standard price before discount  
-   - `promo_type` → Promotion type (Discount, BOGOF, Cashback)  
-   - `quantity_sold_before_promo` → Units sold pre-campaign  
-   - `quantity_sold_after_promo` → Units sold during campaign  
+---
+
+## 📋 Data Dictionary
+
+**`dim_campaigns`**
+-`campaign_id` – Unique identifier for each promotional campaign.
+-`campaign_name` – Descriptive name of the campaign (e.g., Diwali, Sankranti).
+-`start_date` – Campaign start date (DD-MM-YYYY).
+-`end_date` – Campaign end date (DD-MM-YYYY).
+
+**`dim_products`**
+-`product_code` – Unique product code.
+-`product_name` – Full name of the product including brand and specifications.
+-`category` – Product category (e.g., Grocery & Staples, Home Care, Personal Care, Home Appliances).
+
+**`dim_stores`**
+-`store_id` – Unique store identifier.
+-`city` – City where the store is located.
+
+**`fact_events`**
+-`event_id` – Unique identifier for each sales event.
+-`store_id` – Store where the event took place (linked to dim_stores).
+-`campaign_id` – Campaign under which the event was recorded (linked to dim_campaigns).
+-`product_code` – Code of the product sold (linked to dim_products).
+-`base_price` – Standard price of the product before discounts.
+-`promo_type` – Type of promotion (Percentage Discount, BOGOF, Cashback).
+-`quantity_sold_before_promo` – Units sold before campaign (baseline).
+-`quantity_sold_after_promo` – Units sold after the campaign promotion.
 
 ---
 
@@ -136,6 +149,11 @@ Question:Produce a report that calculates the Incremental Sold Unit % (ISU%) for
 Question:Create a report featuring the top 5 products ranked by Incremental Revenue % (IR%) for all campaigns <br>
  Query: [View SQL Query](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/Top_5_product_IR%25.sql) <br>
  Result: [📂 View Result (CSV)](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/category%20wise%20ISU%25.csv)
+
+ ---
+ ## 📷 Dashboard Preview
+![Dashboard Preview](https://github.com/SubhadipInsights/AtliQ-Grands-Market-Share-Recovery-Dashboard/blob/main/dashboard_preview.png)
+
 
 
  
