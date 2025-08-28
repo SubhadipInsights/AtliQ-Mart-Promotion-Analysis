@@ -1,5 +1,23 @@
 # 📊 AtliQ Mart Promotion Analysis  
 
+## 📑 Quick Links
+1. [Project Overview](#-Project-Overview)
+2. [Company Overview](#-AtliQ-Mart---Company-Overview)
+3. [Problem Statement](#-Problem-Statement)
+4. [Project Goals](#-Project-Goals)
+5. [Data Sources](#-Data-Sources)
+6. [Data Dictionary](#-Data-Dictionary)
+7. [Tools and Tech Use](#-Tools-&-Technologies)
+8. [Ad-Hoc Analysis](#-Ad---hoc-Business-Questions-&-SQL-Queries-&-Results)
+9. [Dashboard Preview](#-Dashboard-Preview)
+10. [Live Dashboard](#-Live-Dashboard)
+11. [Insights](#-Insights)
+12. [Project Slides](#-Project-SLides)
+
+    
+
+---
+
 ## 🔎 Project Overview 
 
 This project focuses on analyzing the effectiveness of festive promotions executed by **AtliQ Mart** during **Diwali 2023** and **Sankranti 2024**.  
@@ -122,7 +140,7 @@ This analysis will enable **data-driven decisions** for future campaigns, optimi
 
 ---
 
-## ❓ Ad-hoc Business Questions & SQL Queries  
+## ❓ Ad-hoc Business Questions & SQL Queries & Results
 
 ### 1️⃣ High-Value Products in BOGOF Promotions  
 Question:Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF'(Buy One Get One Free) 
@@ -151,10 +169,41 @@ Question:Create a report featuring the top 5 products ranked by Incremental Reve
  Result: [📂 View Result (CSV)](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/category%20wise%20ISU%25.csv)
 
  ---
+ 
  ## 📷 Dashboard Preview
 ![Home Preview](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/%7B3271DAE2-97E8-4F15-A19A-112AFEE10F2F%7D.png) <br>
 ![Performance Preview](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/%7B7F656EB5-6FF8-4471-B05A-6F1F1932263E%7D.png) <br>
 ![Financial Preview](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/%7B852A47CD-09B2-4884-B3DF-82692E212566%7D.png)
+
+---
+
+## 🔗 Live Dashboard  
+[Click here to view the live Power BI dashboard](https://app.powerbi.com/groups/me/reports/e4245326-2483-4492-81ec-8e551144677f/2b7b7978d5dd3e560ae4?experience=power-bi)
+
+---
+
+## Insights
+
+
+
+## 📂 Project SLides
+
+[Project Presentation](https://app.powerbi.com/groups/me/reports/e4245326-2483-4492-81ec-8e551144677f/2b7b7978d5dd3e560ae4?experience=power-bi)
+
+---
+
+## 📂 How to Use
+
+1. Download the `.pbix` file from this repository.
+2. Open in **Power BI Desktop**.
+3. Explore insights via slicers and filters.
+4. Data model and measures can be found in the Power BI fields pane.
+
+---
+
+## THANK YOU
+
+
 
 
 
