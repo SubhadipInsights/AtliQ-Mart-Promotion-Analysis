@@ -232,7 +232,7 @@ Question:Create a report featuring the top 5 products ranked by Incremental Reve
 
 ## 📂 Project Presentation
 
-[PPT]()
+[PPT](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/PPT.pdf)
 
 ---
 
