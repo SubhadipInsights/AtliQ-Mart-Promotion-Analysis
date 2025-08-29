@@ -146,7 +146,7 @@ This analysis will enable **data-driven decisions** for future campaigns, optimi
 ## ❓ Ad-hoc Business Questions & SQL Queries & Results
 
 ### 1️⃣ High-Value Products in BOGOF Promotions  
-Question:Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF'(Buy One Get One Free) 
+Question:Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF'(Buy One Get One Free) <br>
  Query: [View SQL Query](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/High_value_heavy_discount.sql) <br>
  Result: [📂 View Result (CSV)](https://github.com/SubhadipInsights/AtliQ-Mart-Promotion-Analysis/blob/main/High_value_heavy_discount.csv)
 
